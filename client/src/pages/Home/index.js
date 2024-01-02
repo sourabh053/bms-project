@@ -60,7 +60,7 @@ const Home = () => {
                   )
                 }
               >
-                <img src={movie.poster} alt="" height={200} width={190} />
+                <img src={movie.poster} alt="" height={200} style={{width:'100%'}} />
 
                 <div className="flex justify-center p-1">
                   <h1 className="text-md uppercase">{movie.title}</h1>

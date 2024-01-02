@@ -55,7 +55,7 @@ function MoviesList() {
           <img
             src={rowData.poster}
             alt="poster"
-            height="60"
+            height="100"
             width="80"
             className="br-1"
           />
