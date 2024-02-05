@@ -183,7 +183,7 @@ function Shows({ setOpenShowsModal, theatre }) {
                 name="date"
                 rules={[{ required: true, message: "Please input show date!" }]}
               >
-                <input type="date" min={new Date()} />
+                <input type="date" min={moment().format("YYYY-MM-DD")} />
               </Form.Item>
             </Col>
 
