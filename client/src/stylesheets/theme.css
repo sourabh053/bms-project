@@ -50,3 +50,6 @@
 .border-secondary {
     border-color: var(--colour-secondary);
 }
+.border-none{
+    border: none;
+}
